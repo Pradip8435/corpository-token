@@ -1,0 +1,93 @@
+@font-face {
+    font-family: var(--sofia-pro);
+    src: url(/src/fonts/Sofia\ Pro\ Black.ttf);
+  }
+  
+  @font-face {
+    font-family: var(--sofia-pro);
+    src: url(/src/fonts/SOFIA-PRO-BLACK.TTF);
+    font-weight: bold;
+  }
+  
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--sofia-pro);
+    background-color: var(--color-primary-50) !important;
+    color: #444 !important;
+}
+.btn-simple{
+    background-color: transparent;
+    color: var(--color-primary-900);
+    padding: var(--spacing-button-lg);
+    font-size: var(--sizing-icon-16);
+    border: none !important;
+}
+.btn-simple:hover,
+.btn-simple:active,.btn-simple:focus,.btn-simple:active:focus{
+    background-color: var(--color-primary-900);
+    color: var(--color-white-white) !important;
+    outline: none !important;
+}
+
+.btn-simple.active{
+    background-color: var(--color-primary-900);
+    color: var(--color-white-white);
+
+}
+.pull-right{text-align: right ;}
+.pull-left{text-align: left;}
+
+/* custom-navbar */
+.custom-navbar{
+    background-color: var(--color-white-white);
+    font-size: var(--sizing-icon-14);
+    /* padding: var(--spacing-button-lg); */
+    color: var(--color-white-white);
+}
+.custom-navbar .navbar-brand{
+    padding: 8px 0;
+}
+.custom-navbar ul{margin: 0;}
+.custom-navbar ul li a{
+    padding: 0 !important;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin: var(--spacing-8) var(--spacing-16);
+    background-color: var(--color-primary-50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-navbar ul li a:last-child{
+    margin-right: 0;
+}
+.header{
+    padding-top: var(--sizing-icon-20) ;
+    padding-bottom: var(--sizing-icon-8) ;
+}
+.header p{
+    margin: 0;
+    font-size: var(--sizing-icon-16);
+    font-weight: var(--semibold);
+}
+.custom-card{
+    background-color: var(--color-white-white);
+    border-radius: var(--radius-4);
+    padding: var(--spacing-16) var(--spacing-8);
+}
+
+.table-custom{
+    border-collapse: collapse;
+    width: var(--100);
+    border: none;
+}
+.table-custom thead th{
+    background-color: var(--color-secondary-800);
+    color: var(--color-white-white);
+    border-bottom: 0px solid transparent !important;
+    border-right: 1px solid var(--color-gray-200);
+}
