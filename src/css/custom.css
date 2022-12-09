@@ -1,20 +1,13 @@
 @font-face {
-    font-family: var(--sofia-pro);
-    src: url(/src/fonts/Sofia\ Pro\ Black.ttf);
-  }
+    font-family: Sofia Pro;
+    src: url(../fonts/SofiaProRagular.TTF);
+   }
   
-  @font-face {
-    font-family: var(--sofia-pro);
-    src: url(/src/fonts/SOFIA-PRO-BLACK.TTF);
-    font-weight: bold;
-  }
-  
-
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--sofia-pro);
+    font-family: Sofia Pro;
     background-color: var(--color-primary-50) !important;
     color: #444 !important;
 }
@@ -73,6 +66,7 @@ body{
     margin: 0;
     font-size: var(--sizing-icon-16);
     font-weight: var(--semibold);
+    color: var(--color-dark-900);
 }
 .custom-card{
     background-color: var(--color-white-white);
@@ -89,5 +83,9 @@ body{
     background-color: var(--color-secondary-800);
     color: var(--color-white-white);
     border-bottom: 0px solid transparent !important;
-    border-right: 1px solid var(--color-gray-200);
+    border-right: var(--border-base) solid var(--color-gray-200);
+    font-weight: var(--normal);
 }
+ h1{
+
+ }
