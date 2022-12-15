@@ -2,7 +2,7 @@
 
 <!--
   Do not edit directly
-  Generated on Fri, 09 Dec 2022 06:46:46 GMT
+  Generated on Fri, 09 Dec 2022 06:58:14 GMT
 -->
 <resources>
   <color name="color_primary_50">#e8ebf1</color>
@@ -14,7 +14,7 @@
   <color name="color_primary_600">#34558a</color>
   <color name="color_primary_700">#2b4b7e</color>
   <color name="color_primary_800">#254271</color>
-  <color name="color_primary_900">#591d1d</color>
+  <color name="color_primary_900">#1d3159</color>
   <color name="color_secondary_50">#e8f3f8</color>
   <color name="color_secondary_100">#c6e0f0</color>
   <color name="color_secondary_200">#a6cde7</color>
