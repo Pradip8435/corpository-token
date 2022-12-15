@@ -161,6 +161,7 @@ body {
 
 .custom-card {
     position: relative;
+    margin-bottom: var(--spacing-16);
     background-color: var(--color-white-white);
     border-radius: var(--radius-4);
     padding: var(--spacing-16) var(--spacing-8);
@@ -177,7 +178,7 @@ body {
     background-color: var(--color-secondary-800);
     color: var(--color-white-white);
     border-bottom: 0px solid transparent !important;
-    border-right: var(var(var(var(var(var(var(var(var(--border-base))))))))) solid var(--color-gray-200);
+    border-right: var(--border-base) solid var(--color-gray-200);
     font-weight: var(--normal);
 }
 
@@ -185,7 +186,7 @@ body {
     border-top: none;
     vertical-align: middle;
     color: var(--color-dark-900);
-    border-bottom: var(var(var(var(var(var(var(var(var(--border-base))))))))) solid var(--color-gray-50);
+    border-bottom: var(--border-base) solid var(--color-gray-50);
 }
 
 .table-custom tbody td .fa {
@@ -338,7 +339,7 @@ input[type="checkbox"]:checked:after {
     width: var(--spacing-6);
     height: var(--spacing-10);
     left: var(--spacing-4);
-    top: var(var(var(var(var(var(var(var(var(--border-base)))))))));
+    top: var(--border-base);
     background-color: transparent;
     border: solid var(--color-white-white);
     border-width: 0 var(--spacing-2) var(--spacing-2) 0;
@@ -372,7 +373,7 @@ input[type="checkbox"][disabled]:after {
 }
 .form-box .box-title{
     margin-bottom: var(--spacing-16);
-    border-bottom: var(var(var(var(var(var(var(var(var(--border-base))))))))) solid var(--color-gray-50);
+    border-bottom: var(--border-base) solid var(--color-gray-50);
     padding-bottom: var(--spacing-16);
 }
 .form-box .box-title .small{font-size: var(--sizing-icon-10);}
